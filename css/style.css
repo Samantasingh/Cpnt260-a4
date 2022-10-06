@@ -1,0 +1,26 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+nav {
+display: flex;
+align-items: center;
+border-style: solid;
+
+background-color: #517443;
+
+}
+.logo {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+
+header {
+height: 100vh;
+width: 100%;
+}
+.hero{
+  width: 100%;
+  height: auto;
+}
