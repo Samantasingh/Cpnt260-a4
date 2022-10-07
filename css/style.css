@@ -1,26 +1,64 @@
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
-nav {
-display: flex;
-align-items: center;
-border-style: solid;
 
-background-color: #517443;
-
-}
-.logo {
-  width: 100%;
-  height: 40px;
-  padding: 10px;
+body {
+font-family:Georgia, 'Times New Roman', Times, serif;
+line-height: 1.5;
+position: relative;
+background-color: #5f754a;
 }
 
 header {
-height: 100vh;
-width: 100%;
+  border: 1px solid;
+  height: 95vh;
+  display: flex;
+  margin: 1rem 2rem 2rem 2rem;
+  background-image: url('/Cpnt260-a4/images/Flowers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  justify-content: center;
+  align-items: center;
 }
-.hero{
-  width: 100%;
-  height: auto;
+
+h1 {
+  color: #ba6468;
+  font-size: 60px;
+  max-width: 3rem;
+  line-height: 5rem;
 }
+
+
+p {
+  max-width: 21rem;
+  font-size: 20px;
+  color: #ba6468;
+  line-height: 2rem;
+}
+div {
+  margin-top: -22rem;
+}
+.btn {
+
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  background-color:#ddb83e;
+  line-height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor:pointer;
+  opacity: 0.5;
+  background-color: light rgb(255, 255, 255);
+}
+
+section {
+  text-align: center;
+}
+
